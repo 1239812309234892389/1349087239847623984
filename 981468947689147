@@ -1,9 +1,10 @@
 return {
-"Exampleuserid", "Hwid",
-"Exampleuserid", "Hwid",
-"Exampleuserid", "Hwid",
-"Exampleuserid", "Hwid",
-"Exampleuserid", "Hwid",
-"Exampleuserid", "Hwid",
-"Exampleuserid", "Hwid",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
+"Exampleuserid", "Hwid", "KEY",
 }
