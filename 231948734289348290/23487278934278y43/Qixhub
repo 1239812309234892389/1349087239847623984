@@ -3264,7 +3264,7 @@ function UILibrary.new(gameName, userId, rank)
     local Drag = Draggable.Drag(window.MainUI, Frame)
 
     --// Customize the GUI
-    window.Watermark.Text = ("hydrahub v2 | %s | %s"):format(userId, gameName)
+    window.Watermark.Text = ("QixHub Premium | %s | %s"):format(userId, gameName)
     local userinfo = window.MainUI.Sidebar.ContentHolder.UserInfo.Content
     userinfo.Rank.Text = rank
     userinfo.Title.Text = userId
@@ -3729,7 +3729,7 @@ function UILibrary.Window:ChangeCategory(new)
             Object.Content.Image,
             TI,
             {
-                ImageColor3 = Color3.fromRGB(83, 87, 158)
+                ImageColor3 = Color3.fromRGB(100, 60, 120)
             }
         ):Play()
 
@@ -3737,7 +3737,8 @@ function UILibrary.Window:ChangeCategory(new)
             Object.Content.Title,
             TI,
             {
-                TextColor3 = Color3.fromRGB(83, 87, 158)
+                TextColor3 = Color3.fromRGB(100, 60, 120)
+
             }
         ):Play()
 
@@ -3825,7 +3826,8 @@ function UILibrary.Window:ChangeCategorySelection(name)
             Object.InnerContent.Image,
             TI,
             {
-                ImageColor3 = Color3.fromRGB(255, 20, 147)
+                ImageColor3 = Color3.fromRGB(100, 60, 120)
+
             }
         ):Play()
 
@@ -3833,7 +3835,8 @@ function UILibrary.Window:ChangeCategorySelection(name)
             Object.InnerContent.Title,
             TI,
             {
-                TextColor3 = Color3.fromRGB(255, 20, 147)
+                TextColor3 = Color3.fromRGB(100, 60, 120)
+
             }
         ):Play()
 
@@ -4285,7 +4288,8 @@ function UILibrary.Section:Toggle(sett, callback)
                 element,
                 TI,
                 {
-                    BackgroundColor3 = Color3.fromRGB(255, 20, 147)
+                    BackgroundColor3 = Color3.fromRGB(100, 60, 120)
+
                 }
             ):Play()
         else
